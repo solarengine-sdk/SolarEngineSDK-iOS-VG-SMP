@@ -7,7 +7,7 @@ let package = Package(
     name: "SolarEngineSDK-VG",
     platforms: [
         .iOS(.v11),
-        .macOS(.v11)
+        .macOS("11.5")
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -23,8 +23,8 @@ let package = Package(
         // Binary target for the xcframework
         .binaryTarget(
             name: "SolarEngineSDKVGBinary",
-            url: "https://github.com/solarengine-sdk/SolarEngineSDK-iOS-VG-SMP/releases/download/1.3.1/SolarEngineSDK-VG-1.3.1.xcframework.zip",
-            checksum: "e3ffb37f4e191bebcde23c4283a2c71070549c5fcac0fba80adc9775ef427838"
+            url: "https://github.com/solarengine-sdk/SolarEngineSDK-iOS-VG-SMP/releases/download/1.3.3/SolarEngineSDK-VG-1.3.3.xcframework.zip",
+            checksum: "730be916a0f57d0c3a9ee228239520bba6c22ffad8c0c74dd369468b2a293926"
         ),
         
         // Wrapper target to add system frameworks and libraries
